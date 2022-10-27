@@ -17,11 +17,11 @@ fn main() {
             j = j + 1;
         }
         i = i + 1;
-        println!("This asd {}", count);
         if count == sub_arr.len() {
             println!("This is sub array");
             break;
-        } if i  == (org_arr.len() - 1)  && count < sub_arr.len(){
+        } 
+        if i  == (org_arr.len() - 1)  && count < sub_arr.len(){
             println!("This is not sub array");
             break; 
         }
